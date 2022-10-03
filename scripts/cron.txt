@@ -1,0 +1,1 @@
+*/1 * * * * bash /bee/9004/scripts/monitor.sh

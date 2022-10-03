@@ -1,0 +1,19 @@
+full-node: true
+mainnet: true
+network-id: 1
+swap-endpoint: wss://rpc.xdaichain.com/wss
+resolver-options: ["https://mainnet.infura.io/v3/a751414aa90e4970822056b85e48c037"]
+db-open-files-limit: 2000
+nat-addr: natip:9004
+api-addr: 127.0.0.1:9003
+p2p-addr: 0.0.0.0:9004
+debug-api-enable: true
+debug-api-addr: 127.0.0.1:9005
+password-file: /bee/9004/password
+# clef-signer-enable: true
+# clef-signer-endpoint: /var/lib/bee-clef/clef.ipc
+welcome-message: "168node bzz-9004"
+data-dir: /bee/9004/data
+# bootnode:
+#        - /ip4/172.21.99.94/tcp/8004/p2p/16Uiu2HAm2khdcc7hCJmuQQARnxo4EBdfxrmifrdL1qyh8St7fobU
+#        - /dnsaddr/bootnode.swarm.qpools.cn
